@@ -5,6 +5,15 @@ h1 {
     text-shadow: 3px 3px white;
     margin-top: 0;
     margin-bottom: 0;
+    animation-name: pealkiri;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes pealkiri {
+    0% {text-shadow: 3px 3px white;}
+    50% {text-shadow: 3px 3px greenyellow;}
+    100% {text-shadow: 3px 3px white;}
 }
 h2 {
     font-family: 'Noto Serif', serif;
